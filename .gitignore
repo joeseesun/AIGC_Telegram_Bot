@@ -1,0 +1,5 @@
+# Ignore .env file
+.env
+
+# Include env.txt file
+!env.txt

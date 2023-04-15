@@ -1,0 +1,111 @@
+FinanceYF5,Will
+sama,Sam Altman
+AlecRad,Alec Radford
+gdb,Greg Brockman
+ilyasut,Ilya Sutskever
+woj_zaremba,Wojciech Zaremba
+johnschulman2,John Schulman
+janleike,Jan Leike
+karpathy,Andrej Karpathy
+miramurati,Mira Murati
+lilianweng,Lilian Weng
+merettm,Jakub Pachocki
+OfficialLoganK,Logan.GPT
+bobmcgrewai,BOB MCGREW
+dswillner,DAVE WILLNER
+markchen90,MARK CHEN
+c_berner,CHRISTOPHER BERNER
+Miles_Brundage,MILES BRUNDAGE
+longouyang,LONG OUYANG
+crlfq,Ivan Zhang
+nickfrosst,Nick Frosst
+ashVaswani,Ashish Vaswani
+NoamShazeer,Noam Shazeer
+nikiparmar09,Niki Parmar
+kyosu,Jakob Uszkoreit
+aidangomezzz,Aidan Gomez
+lukaszkaiser,Lukasz Kaiser
+ilblackdragon,Illia Polosukhin
+dan_defr,Daniel De Freitas
+ThoppilanRomal,Romal Thoppilan
+annadgoldie,Anna Goldie
+colinraffel,Colin Raffel
+sharan0909,Sharan Narang
+jacob_devlin,Jacob Devlin
+Azaliamirh,Azalia Mirhoseini
+ylecun,Yann LeCun
+JeffDean,Jeff Dean
+DrJimFan,Jim Fan
+oran_ge,orange.ai
+dotey,宝玉
+bearbig,Bear Liu
+BaibanbaoNet,白板报
+wanglei001,Kenshin
+OwenYoungZh,Owen
+thinkingjimmy,JimmyWong
+decohack,viggo
+op7418,歸藏
+xicilion,响马
+WuPingJu,P.J. Wu 吳秉儒
+yetone,yetone
+nash_su,nash_su
+novoreorx,Reorx
+nishuang,倪爽
+hzlzh,自力hzlzh
+mr_easonyang,Eason Yang
+luoleiorg,luolei
+yihong0618,yihong0618
+jesselaunz,紐村遁一子
+Cydiar404,𝗖𝘆𝗱𝗶𝗮𝗿
+lxfater,铁锤人
+mtrainier2020,雷尼尔
+mranti,Michael Anti
+JourneymanChina,Journeyman
+lewangdev,lewang
+vikingmute,Viking
+vista8,向阳乔木
+browserdotsys
+two_dukes
+StabilityAI
+AndyChenML
+Meta_RealityLabs
+BrownUniversity
+mezaoptimizer
+DannyDriess
+GoogleAI
+sohamxsarkar
+brickroad7
+SamWolfstone
+_jasonwei
+MatthewJBar
+MJBPredictions
+natalia__coelho
+dwarkesh_sp
+MoritzW42
+andriy_mulyar
+nearcyan
+full_stack_dl
+geoffreyhinton
+woj_zaremba
+charles_irl
+weights_biases
+Redwood_Neuro
+atroyn
+trychroma
+maithra_raghu
+Samaya_AI
+entirelyuseles
+realGeorgeHotz
+DhruvBatraDB
+digi_literacy
+johnjnay
+CodeXStanford
+ggerganov
+mckaywrigley
+CodewandAI
+ChatbotUI
+ESYudkowsky
+_akhaliq
+Gradio_HuggingFace
+ilyasut
+connerruhl

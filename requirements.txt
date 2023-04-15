@@ -1,0 +1,6 @@
+beautifulsoup4==4.9.3
+feedparser==6.0.8
+requests==2.26.0
+python-telegram-bot==13.7
+python-dotenv==1.0.0
+translate==3.6.1

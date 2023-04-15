@@ -1,0 +1,2 @@
+# AIGC_Telegram_Bot
+编程新手用GPT4辅助开发的一个Telegram机器人，指定twitter ID，自动抓取推特消息并翻译成中文发给自己的Telegram账号。

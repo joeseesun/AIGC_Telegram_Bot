@@ -1,5 +1,6 @@
 # Ignore .env file
 .env
+*.venv_*
 
 # Include env.txt file
 !env.txt

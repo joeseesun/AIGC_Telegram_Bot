@@ -44,6 +44,8 @@ for line in lines:
         "url": url
     })
 
+    # print(f"rss list is {rss_list}")
+
 def get_latest_twitter_updates(rss_url, last_item_link):
     response = requests.get(rss_url)
     rss_content = response.content
@@ -54,13 +56,21 @@ def get_latest_twitter_updates(rss_url, last_item_link):
         if entry["link"] == last_item_link:
             break
         latest_items.append(entry)
+
+
+    # print(f"content list is {latest_items}")
         
     return latest_items
 
 async def send_update_to_telegram(items):
+
+    # print(f"in async send, item length is {len(items)}")
+
     for item in items:
         author = item["author"]
         title = item["title"]
+
+        # print(f"author is {author}, title is {title}")
 
         description_html = item["description"]
         soup = BeautifulSoup(description_html, 'html.parser')
@@ -87,7 +97,7 @@ async def send_update_to_telegram(items):
         for video in videos:
             video_url = video.get("src")
             await asyncio.to_thread(bot.send_video, chat_id=target_chat_id, video=video_url)
-        
+
         pub_date_parsed = datetime.strptime(item["published"], "%a, %d %b %Y %H:%M:%S %Z")
         pub_date = pub_date_parsed.strftime("%Y-%m-%d %H:%M:%S")
         link = item["link"]
@@ -100,15 +110,25 @@ async def send_update_to_telegram(items):
             f"链接: {link}"
         )
 
-        await asyncio.to_thread(bot.send_message, chat_id=target_chat_id, text=message)  # Do not use parse_mode="HTML"
+        # print(f"message to be sent is {message}")
+
+        await asyncio.to_thread(
+            bot.send_message, 
+            chat_id=target_chat_id, 
+            text=message,
+            timeout=100,
+            )  # Do not use parse_mode="HTML"
 
 last_links = [None] * len(rss_list)
-interval = 10  # 以秒为单位，根据需要调整RSS检查的频率
+interval = 600  # 以秒为单位，根据需要调整RSS检查的频率
 
 async def main():
     while True:
         for index, rss_source in enumerate(rss_list):
             latest_items = get_latest_twitter_updates(rss_source["url"], last_links[index])
+
+            # print(f"latest_items length is {len(latest_items)}")
+
 
             if latest_items:
                 last_links[index] = latest_items[0]["link"]
@@ -118,3 +138,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+

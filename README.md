@@ -31,6 +31,11 @@ python main.py
 自己是产品经理，不怎么会代码。
 以上都是GPT4帮写的，希望程序员大佬帮优化改进。
 
+# 如果显示连接timeout
+首先`ping api.telegram.org`,看下是否可以连上
+如果ping不通，可以试下全局翻，并且打开增强模式
+
+
 
 
 

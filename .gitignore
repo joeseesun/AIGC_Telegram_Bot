@@ -5,6 +5,7 @@
 log*
 *debug*
 *example*
+cutoff_time.txt
 
 # Include env.txt file
 !env.txt

@@ -1,1 +1,14 @@
-sama,Sam Altman
+OfficialLoganK,Logan.GPT
+bobmcgrewai,BOB MCGREW
+dswillner,DAVE WILLNER
+markchen90,MARK CHEN
+c_berner,CHRISTOPHER BERNER
+Miles_Brundage,MILES BRUNDAGE
+longouyang,LONG OUYANG
+crlfq,Ivan Zhang
+nickfrosst,Nick Frosst
+ashVaswani,Ashish Vaswani
+NoamShazeer,Noam Shazeer
+nikiparmar09,Niki Parmar
+kyosu,Jakob Uszkoreit
+aidangomezzz,Aidan Gomez

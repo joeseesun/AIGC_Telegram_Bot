@@ -1,6 +1,10 @@
 # Ignore .env file
 .env
 *.venv*
+.ipynb*
+log*
+*debug*
+*example*
 
 # Include env.txt file
 !env.txt

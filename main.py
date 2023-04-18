@@ -19,8 +19,12 @@ load_dotenv()  # Load environment variables from .env file
 
 TOKEN = os.getenv("TOKEN")
 target_chat_id = os.getenv("target_chat_id")
+TELEGRAM_API_BASE_URL=os.getenv("TELEGRAM_API_BASE_URL", "https://api.telegram.org/bot")
 
-bot = Bot(token=TOKEN)
+bot = Bot(
+    token=TOKEN,
+    base_url=TELEGRAM_API_BASE_URL,
+    )
 
 rss_list = []
 # 读取文本文件

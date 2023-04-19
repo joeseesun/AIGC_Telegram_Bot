@@ -1,7 +1,7 @@
 
 指定twitter ID 列表，定时抓取推特内容更新发送给自己的Telegram Bot。
 
-Send Twitter updates from a list of users to your Telegram bot. 
+Use jupyter-lab to send Twitter updates from a list of users to your Telegram bot. 
 
 
 ## Fork说明
@@ -44,7 +44,8 @@ Send Twitter updates from a list of users to your Telegram bot.
 3. 设置Token和Telegram ID
 
 - 把Token和Telegram ID 填入env.txt文件，然后把env.txt改名为".env"
-- 需要添加telegram 
+- 需要添加telegram api代理地址的，也可以设置在TELEGRAM_API_BASE_URL，防止网络无法连上
+- 如果有自己的rss的服务器，比如自建的rsshub服务器地址，也可以设置在RSS_BASE_URL
 
 4. 把 cutoff_time2.txt 改名为 cutoff_time.txt，用于保存时间戳
 
